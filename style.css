@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.header {
+    background-color: lightskyblue;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul {
+    all: initial;
+    display: flex;
+    /* margin-left: 80px; */
+}
+ul li {
+    padding: 10px;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+.city {
+    border: none;
+    color: white;
+    background-color: lightskyblue;
+    font-size: 18px;
+}
+.main {
+    justify-content: center;
+    padding-left:  80px;
+}
+.topBar {
+    width: 510px;
+    padding: 18px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.unit {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.units {
+    border: 2px solid black;
+    padding: 2px;
+}
+.show {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.days {
+    display: flex;
+}
+.day {
+    height: 210px;
+    background-color:rgb(241, 241, 241);
+    margin: 20px 10px;
+    padding: 15px 18px 0px;
+    text-align: center;
+}
+.day img {
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.day p {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+.temps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.temps .high {
+    color: red;
+    margin-right: 5px;
+}
+.temps .low {
+    color:royalblue;
+    margin-left: 5px;
+}
+.cookie {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    margin: 0px 80px;
+    padding: 8px 20px;
+    position: fixed;
+    bottom:5px;
+    border: 3px solid black;
+}
+.cookie img {
+    padding: 8px;
+    height: 45px;
+}
+.text {
+    width: 350px;
+}
+.text p {
+    font-size: 12px;
+}
+.accept {
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px;
+    background-color: lightskyblue;
+}
